@@ -22,6 +22,7 @@
     <style>
       a {
         text-decoration: none;
+        cursor: pointer;
       }
       #logsignbtn {
         margin-right: 3vh;
@@ -50,137 +51,143 @@
     </style>
 </head>
 <body class="bg-light">
+    <div
+      class="d-flex justify-content-center"
+      style="background-color: #0070b7"
+    >
+      <span style="color: white">Free delivery Of mineral water</span>
+    </div>
     <header class="navbar-expand-md bg-light">
-        <div
-          class="bg-light border-bottom"
-          style="padding-top: 10px; padding-bottom: 10px"
-        >
-          <div class="d-flex justify-content-between align-items-center">
-            <div id="logo" style="margin-top: 10px">
-              <img
-                style="height: 9vh; width: 12vh"
-                src="fettlelogo1.jpg"
-                alt=""
-              />
-            </div>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-info" type="submit">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-search"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-                  />
-                </svg>
-              </button>
-            </form>
-            <div id="logsignbtn">
-              <a href="Login.html"
-                ><button class="btn btn-outline-info" type="submit">
-                  Login
-                </button></a
+      <div
+        class="bg-light border-bottom"
+        style="padding-top: 10px; padding-bottom: 10px"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div id="logo" style="margin-top: 10px">
+            <img
+              style="height: 9vh; width: 12vh"
+              src="fettlelogo1.jpg"
+              alt=""
+            />
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
               >
-              <a href="Register.html"
-                ><button class="btn btn-outline-info" type="submit">
-                  Register
-                </button></a
-              >
-            </div>
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div id="logsignbtn">
+            <a href="Login.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Login
+              </button></a
+            >
+            <a href="Register.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Register
+              </button></a
+            >
           </div>
         </div>
-        <!-- <div class="border-bottom sticky-top" style="height: 84px">
-          <nav id="navs" class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">carreer</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link">Products</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link"></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link">Products</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link">Products</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div> -->
-      </header>
-      <div class="sticky-top navigationbar" style="height: 84px">
+      </div>
+      <!-- <div class="border-bottom sticky-top" style="height: 84px">
         <nav id="navs" class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="Homepage.html">Fettle</a>
+            <a class="navbar-brand" href="#">Navbar</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="Homepage.html"
+                  <a class="nav-link active" aria-current="page" href="#"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="careers.html">Careers</a>
+                  <a class="nav-link" href="#">carreer</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link" href="products.html">Products</a>
+                  <a class="nav-link">Products</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link">Subcriptions</a>
+                  <a class="nav-link"></a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a href="#aboutus" class="nav-link">About Us</a>
+                  <a class="nav-link">Products</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link">Contact Us</a>
+                  <a class="nav-link">Products</a>
                 </li>
               </ul>
-              <div>
+            </div>
+          </div>
+        </nav>
+      </div> -->
+    </header>
+    <div class="sticky-top navigationbar" style="height: 84px">
+      <nav id="navs" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Homepage.html">Fettle</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Subcriptions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#aboutus" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+            <div>
                 <a href="cart.html">
-                  <svg
+                    <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     fill="currentColor"
                     class="bi bi-cart"
                     viewBox="0 0 16 16"
-                  >
+                    >
                     <path
-                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
                     />
                     
-                  </svg>
+                    </svg>
+                </a>
             </div>
-          </div>
-        </nav>
-      </div>
-    
+        </div>
+      </nav>
+    </div>
     <div class="container">
         <main>
             <div class="py-5 text-center">
@@ -218,7 +225,7 @@
                     <li class="list-group-item d-flex justify-content-between bg-light">
                     <div class="text-success">
                         <h6 class="my-0">Promo code</h6>
-                        <small>EXAMPLECODE</small>
+                        <small>Example code</small>
                     </div>
                     <span class="text-success">−$5</span>
                     </li>
