@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fettle International Pvt. Ltd.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" sizes="48x48" href="fettlelogo1.jpg" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      #logsignbtn {
+        margin-right: 3vh;
+      }
+      #logo {
+        margin-left: 20px;
+      }
+      #navs {
+        /* background-color: #3a24f0; */
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        border-bottom: solid #a6a9e3;
+        border-top: solid #a6a9e3;
+        background: aliceblue;
+      }
+      .navigationbar {
+        position: sticky;
+        top: 0;
+      }
+      * {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      #formstyle {
+        background-color: #fff;
+        border-radius: 35px;
+        padding: 30px;
+        margin: 30px 0;
+        box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+      }
+      .width-300 {
+        width: 300px;
+      }
+      .width-650 {
+        width: 650px;
+      }
+    </style>
+  </head>
+  <body style="background: linear-gradient(-180deg, #c3e8a7, #bbe2ed)">
+    <header class="navbar-expand-md bg-light">
+      <div
+        class="bg-light border-bottom"
+        style="padding-top: 10px; padding-bottom: 10px"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div id="logo" style="margin-top: 10px">
+            <img
+              style="height: 9vh; width: 12vh"
+              src="fettlelogo1.jpg"
+              alt=""
+            />
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div id="logsignbtn">
+            <a href="Login.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Login
+              </button></a
+            >
+            <a href="Register.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Register
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="sticky-top navigationbar" style="height: 84px">
+      <nav id="navs" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fettle</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Subcriptions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="Homepage.html#aboutus" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="Contactus.html" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container" style="height: 160vh">
+      <div>&nbsp;</div>
+      <div>
+        <h1 class="d-flex justify-content-center">We are happy to help you</h1>
+      </div>
+      <main class="form-signin w-100 m-auto" style="max-width: 800px">
+        <form style="padding: 5vh" id="formstyle">
+          <p>
+            Write in if you have any business proposals, queries, complaints or
+            suggestions. <br />
+            We would love to hear from you!
+          </p>
+          <div class="d-flex justify-content-evenly" style="padding-top: 3vh">
+            <div class="form-floating width-300">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                required
+              />
+              <label for="floatingInput">Full Name</label>
+            </div>
+            <div class="form-floating width-300">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+                required
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+          </div>
+          <div>&nbsp;</div>
+          <div class="d-flex justify-content-evenly" style="padding-top: 3vh">
+            <div class="form-floating width-300">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+                required
+              />
+              <label for="floatingPassword">Contact No</label>
+            </div>
+
+            <div class="form-floating width-300">
+              <input
+                type="text"
+                class="form-control"
+                id="Location"
+                placeholder="Location"
+                required
+              />
+              <label for="floatingPassword">Location</label>
+            </div>
+          </div>
+          <div>&nbsp;</div>
+          <div class="d-flex justify-content-evenly" style="padding-top: 3vh">
+            <div class="form-floating width-650">
+              <textarea
+                name=""
+                class="form-control"
+                id="yourmessage"
+                width="100%"
+                rows="8"
+                style="min-height: 170px"
+              ></textarea>
+              <label for="yourmessage">Your message</label>
+            </div>
+          </div>
+          <div>&nbsp;</div>
+          <div style="margin-left: 5vh">
+            <input type="checkbox" id="contactustnc" checked /><span>
+              I hereby authorize Fettle and their affiliates to call and/or send
+              texts via SMS <br />
+              to me for communication.</span
+            >
+          </div>
+          <div>&nbsp;</div>
+          <button
+            class="btn btn-lg btn-primary d-flex align-items-center"
+            type="submit"
+            style="margin-top: 0vh; margin-left: 5vh"
+          >
+            Submit
+          </button>
+        </form>
+      </main>
+      <div>&nbsp;</div>
+      <div class="d-flex justify-content-center">
+        <div><h1>Find us in your area</h1></div>
+      </div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+      <div class="d-flex justify-content-evenly">
+        <div>
+          <h3>Mumbai</h3>
+          <p>
+            Fettle Ltd. <br />
+            WesternExpress Highway, <br />
+            Andheri (East),
+            <br />
+            Mumbai - 400099
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+              />
+            </svg>
+            wecare@fettle.co.in
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+            1800-121-1007
+          </p>
+        </div>
+        <div>
+          <h3>Pune</h3>
+          <p>
+            Fettle Ltd. <br />
+            Gaothan, Shivaji nagar, <br />
+            Pune - 411005
+
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+              />
+            </svg>
+            wecare@fettle.co.in
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+            1800-121-1007
+          </p>
+        </div>
+        <div>
+          <h3>Nasik</h3>
+          <p>
+            Fettle Ltd. <br />
+            Agra National Highway, <br />
+            Kevdian, Panchavati
+            <br />
+            Nashik - 422003
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-envelope"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+              />
+            </svg>
+            wecare@fettle.co.in
+            <br /><br /><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+              />
+            </svg>
+            1800-121-1007
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer style="margin-bottom: 0px; background-color: #222">
+      <div class="container">
+        <div class="footer-middle" style="padding: 40px 0 20px">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="widget widget-about">
+                <a href="Homepage.html" class="logo-footer">
+                  <noscript
+                    ><img
+                      decoding="async"
+                      src="fettlelogo1.jpg"
+                      alt="logo-footer"
+                      width="200" /></noscript
+                  ><img
+                    decoding="async"
+                    class="ls-is-cached lazyloaded"
+                    src="fettlelogo1.jpg"
+                    alt="logo-footer"
+                    width="150"
+                    height="150"
+                  />
+                </a>
+                <div class="widget-body text-primary">
+                  <p>
+                    Fettle MFG. LTD.<br />
+                    PO Box 1499, Mumbai<br />
+                    India
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a href="tel:18555866667">Toll Free: 1-855-586-6667</a>
+                      </li>
+                      <li>
+                        <a href="tel:12505866667">Direct: 1-250-586-6667</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/drinking-water-systems/"
+                          >Drinking Water Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/water-treatment/"
+                          >Water Filtration Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/bottle-less-water-coolers/"
+                          >Bottle-less Water Coolers</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/about-reverse-osmosis/"
+                          >About Reverse Osmosis</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/contact-us/"
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/become-a-dealer/"
+                          >Want to be a dealer?</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-left">
+            <figure class="payment">
+              <noscript
+                ><img
+                  decoding="async"
+                  src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                  alt="payment"
+                  width="159"
+                  height="29" /></noscript
+              ><img
+                decoding="async"
+                class="ls-is-cached lazyloaded"
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                data-src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                alt="payment"
+                width="159"
+                height="29"
+              />
+            </figure>
+          </div>
+          <div class="footer-center">
+            <p class="copyright">© 2022 MineralPRO Mfg. All Rights Reserved</p>
+          </div>
+          <div class="footer-right">
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="social-link social-facebook fab fa-facebook-f"
+              ></a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="social-link social-twitter fab fa-twitter"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

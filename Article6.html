@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      a {
+        text-decoration: none;
+      }
+      #logsignbtn {
+        margin-right: 3vh;
+      }
+      #logo {
+        margin-left: 20px;
+      }
+      #navs {
+        /* background-color: #3a24f0; */
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        border-bottom: solid #a6a9e3;
+        border-top: solid #a6a9e3;
+        background: aliceblue;
+      }
+      .navigationbar {
+        position: sticky;
+        top: 0;
+      }
+      * {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      #mainimg {
+        margin-top: 5vh;
+        border-radius: 5vh;
+      }
+    </style>
+  </head>
+  <body style="background: linear-gradient(-180deg, #c3e8a7, #bbe2ed)">
+    <header class="navbar-expand-md bg-light">
+      <div
+        class="bg-light border-bottom"
+        style="padding-top: 10px; padding-bottom: 10px"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div id="logo" style="margin-top: 10px">
+            <img
+              style="height: 9vh; width: 12vh"
+              src="fettlelogo1.jpg"
+              alt=""
+            />
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div id="logsignbtn">
+            <a href="Login.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Login
+              </button></a
+            >
+            <a href="Register.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Register
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="border-bottom sticky-top" style="height: 84px">
+        <nav id="navs" class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">carreer</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> -->
+    </header>
+    <div class="sticky-top navigationbar" style="height: 84px">
+      <nav id="navs" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fettle</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Subcriptions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#aboutus" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="Contactus.html" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <img
+        src="https://bisleri-shop-storage.s3.ap-south-1.amazonaws.com/posts/June2021/138CiAgECDMy3EnyuCl9.jpg"
+        class="img-fuild"
+        id="mainimg"
+      />
+    </div>
+    <div class="container">
+      <hr />
+      <h1>Water borne diseases in monsoon: Tips to safeguard yourself</h1>
+      <hr />
+      <p>
+        A thunderous monsoon at the end of a hot and humid summer is always
+        welcomed with open arms. But this cold shower respite from the heat also
+        brings with it a host of diseases especially, water-borne diseases.
+      </p>
+      <p>
+        Water-borne diseases are caused by a variety of microorganisms,
+        bacteria, and toxic contaminants, which can lead to distressing
+        illnesses like cholera, malaria, dengue, gastroenteritis, typhoid, and
+        leptospirosis. When a climatic change increases the severity and
+        frequency of a precipitation event like rainfall or snowfall, the
+        disease burden from water-borne diseases rises swiftly.
+      </p>
+      <p>
+        Dr. Prashant Bhatia (MBBS, DPHA, DHA, PGDMLS) clarifies, “Climate change
+        and monsoon are likely to increase incidences of viral fever,
+        gastroenteritis and other water-borne diseases. This is because stagnant
+        monsoon water is a playground for disease-causing microorganisms and
+        drinking water supply can get compromised due to stagnant rainwater. To
+        maintain good health during monsoon, I always urge people to take
+        adequate measures to safeguard their drinking water and to avoid eating
+        at unhygienic restaurants and roadside vendors.”
+      </p>
+      <p>
+        Here are some of the precautionary measures that Dr. Prashant Bhatia
+        recommends –
+      </p>
+      <p><strong>Focus on personal hygiene</strong></p>
+      <p>
+        Washing hands before eating and after using the restroom, whether at
+        home or away, is the safest way to keep germs from entering your body.
+        Preferably, wash your hands with running water before and after – eating
+        food, toilet usage, taking medicines and wound care. Avoid touching your
+        nose or eyes when riding on public transport and cover your mouth if you
+        have to cough or sneeze.
+      </p>
+      <p><strong>Drink water from safe sources</strong></p>
+      <p>
+        contaminated and untreated drinking water is the biggest culprit to
+        spread diseases, hence ensure you drink water from reliable sources
+        only. Buy water bottles from reputed companies who follow strict
+        purification procedures and conduct thorough quality tests. Reputed and
+        quality conscious companies follow a multi-step water purification
+        process and subject their water to over 100 quality tests to ensure you
+        get purity in every drop.
+      </p>
+      <p>
+        Locally packed or unbranded water from unknown companies may look
+        “clean” but do not get deceived by their looks. If you are not sure
+        about their safety and purification methods, then do not buy it.
+      </p>
+      <p><strong>Boiling water is also not enough</strong></p>
+      <p>
+        boiling water is considered as the gold standard of water purification.
+        Even though it kills bacteria and other harmful microorganisms, it does
+        not remove other inorganic and dissolved components. Moreover, loosely
+        covering the water vessel or matka and dipping a glass directly into it
+        can invite other airborne bacteria defeating the whole purpose of
+        boiling the water in the first place.
+      </p>
+      <p><strong>Avoid street food</strong></p>
+      <p>
+        No matter how tempting an onion pakora or cutting chai looks on the
+        street cart, avoid street food at all costs. Not only is their source
+        and purity of water questionable, but their preparation method could be
+        unhygienic as well. To quench these enticing cravings, prepare such
+        items at home with clean and purified water. It is always a good idea to
+        eat fresh home cooked meals, avoid eating raw food, and consuming plenty
+        of water. Also, have plenty of fruits, vegetables, and nuts as they
+        boost your immunity during the rainy season.
+      </p>
+      <p><strong>Fix plumbing leakages at home</strong></p>
+      <p>
+        A leaking roof or a wet wall can be a breeding ground for
+        disease-causing bacteria and fungus. Also check for leaks in the main
+        water pipeline that provides drinking water to apartment septic tanks.
+        Immediately repair any leakages to avoid contamination of safe drinking
+        water. Look out for water stagnation at home in the receptacles of A/C,
+        coolers, indoor plants, and overhead tanks. Designate one day a week as
+        a ‘dry day’ where all such receptacles are drained off and cleaned.
+      </p>
+      <p><strong>Monitor the colour and odour of water</strong></p>
+      <p>
+        If you suspect the colour of your tap water has changed, then
+        immediately inform your local authorities so that they can check where
+        the contamination is happening. If any contamination is confirmed, then
+        drink only packaged drinking water for few days till the tank is
+        completely cleaned.
+      </p>
+      <p>
+        Heavy rainfall and the accompanying flood pose a huge threat to the
+        health of the community. To ensure your health and wellbeing, eat a
+        healthy diet and avoid venturing into flood affected areas. Drink safe
+        and clean water from reputed companies and consult a doctor immediately
+        if you feel sick.
+      </p>
+    </div>
+    <footer style="margin-bottom: 0px; background-color: #222">
+      <div class="container">
+        <div class="footer-middle" style="padding: 40px 0 20px">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="widget widget-about">
+                <a href="/" class="logo-footer">
+                  <noscript
+                    ><img
+                      decoding="async"
+                      src="fettlelogo1.jpg"
+                      alt="logo-footer"
+                      width="200" /></noscript
+                  ><img
+                    decoding="async"
+                    class="ls-is-cached lazyloaded"
+                    src="fettlelogo1.jpg"
+                    alt="logo-footer"
+                    width="150"
+                    height="150"
+                  />
+                </a>
+                <div class="widget-body">
+                  <p>
+                    MINERALPRO MFG. LTD.<br />
+                    PO Box 1499, Parksville, BC<br />
+                    Canada, V9P 2H4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a href="tel:18555866667">Toll Free: 1-855-586-6667</a>
+                      </li>
+                      <li>
+                        <a href="tel:12505866667">Direct: 1-250-586-6667</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/drinking-water-systems/"
+                          >Drinking Water Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/water-treatment/"
+                          >Water Filtration Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/bottle-less-water-coolers/"
+                          >Bottle-less Water Coolers</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/about-reverse-osmosis/"
+                          >About Reverse Osmosis</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/contact-us/"
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/become-a-dealer/"
+                          >Want to be a dealer?</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-left">
+            <figure class="payment">
+              <noscript
+                ><img
+                  decoding="async"
+                  src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                  alt="payment"
+                  width="159"
+                  height="29" /></noscript
+              ><img
+                decoding="async"
+                class="ls-is-cached lazyloaded"
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                data-src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                alt="payment"
+                width="159"
+                height="29"
+              />
+            </figure>
+          </div>
+          <div class="footer-center">
+            <p class="copyright">© 2022 MineralPRO Mfg. All Rights Reserved</p>
+          </div>
+          <div class="footer-right">
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="social-link social-facebook fab fa-facebook-f"
+              ></a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="social-link social-twitter fab fa-twitter"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

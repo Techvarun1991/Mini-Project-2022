@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      a {
+        text-decoration: none;
+      }
+      #logsignbtn {
+        margin-right: 3vh;
+      }
+      #logo {
+        margin-left: 20px;
+      }
+      #navs {
+        /* background-color: #3a24f0; */
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        border-bottom: solid #a6a9e3;
+        border-top: solid #a6a9e3;
+        background: aliceblue;
+      }
+      .navigationbar {
+        position: sticky;
+        top: 0;
+      }
+      * {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      #mainimg {
+        margin-top: 5vh;
+        border-radius: 5vh;
+      }
+    </style>
+  </head>
+  <body style="background: linear-gradient(-180deg, #c3e8a7, #bbe2ed)">
+    <header class="navbar-expand-md bg-light">
+      <div
+        class="bg-light border-bottom"
+        style="padding-top: 10px; padding-bottom: 10px"
+      >
+        <div class="d-flex justify-content-between align-items-center">
+          <div id="logo" style="margin-top: 10px">
+            <img
+              style="height: 9vh; width: 12vh"
+              src="fettlelogo1.jpg"
+              alt=""
+            />
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </button>
+          </form>
+          <div id="logsignbtn">
+            <a href="Login.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Login
+              </button></a
+            >
+            <a href="Register.html"
+              ><button class="btn btn-outline-info" type="submit">
+                Register
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="border-bottom sticky-top" style="height: 84px">
+        <nav id="navs" class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">carreer</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link"></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link">Products</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div> -->
+    </header>
+    <div class="sticky-top navigationbar" style="height: 84px">
+      <nav id="navs" class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fettle</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="Homepage.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link">Subcriptions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#aboutus" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="Contactus.html" class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <img
+        src="https://bisleri-shop-storage.s3.ap-south-1.amazonaws.com/posts/April2022/7zN7Lcut8NaZz2Pi6mgO.jpg"
+        class="img-fuild"
+        id="mainimg"
+      />
+    </div>
+    <div class="container">
+      <hr />
+      <h1>5 Reasons Why Your Skin Needs to Stay Hydrated</h1>
+      <hr />
+      <p>
+        We all know that staying hydrated is imperative for our body to function
+        properly and maintain good health. But staying hydrated is also
+        essential if you want to have glowing, clear skin. It is drinking
+        mineral water that is going to prove very beneficial for your skin in
+        the long run.
+      </p>
+      <p><strong>Reasons To Stay Hydrated</strong></p>
+      <ul>
+        <li>Prevents Premature Aging</li>
+        <p>
+          Want to continue looking young for a long time to come? Drink water!
+          The key to having younger looking skin lies in those 3-4 liters of
+          water that you need to drink every day. Keeping yourself hydrated
+          keeps the skin moisturized for a long time and increases the
+          elasticity. This delays sagging of the skin so fine lines and wrinkles
+          take a long time to take form!
+        </p>
+        <li>It Gets Your Skin to Glow</li>
+        <p>
+          When you drink enough water every day, your skin gets hydrated and
+          moisturized. This helps to keep it smooth and supple. With skin so
+          smooth and moisturized, it will have a radiant glow. When sunlight
+          touches your skin, it will bounce off your smooth skin and give it
+          that gorgeous dewy look, which would not be possible if your skin was
+          rough, dull and dry. If you want that natural glow, drink some mineral
+          water.
+        </p>
+        <li>It Prevents Acne</li>
+        <p>
+          In the hustle-bustle of our fast-paced lives, we are forgetting to
+          give our body the attention and care it deserves. Dehydration,
+          pollution and unhealthy diet are some of the reasons that are leaving
+          a negative impact on our skin. While acne is a common skin dilemma in
+          our teenage years, more and more adults are reporting cases of mild or
+          acute acne. One of the biggest advantages of drinking water is that it
+          is a great cure for reducing acne and clearing your skin. Drinking
+          water helps to balance the oil and water content on your face’s skin.
+          This helps to prevent excess oil and sebum secretion, hence fewer
+          clogged pores and acne.
+        </p>
+        <li>It Reduces Wrinkles</li>
+        <p>
+          Drinking enough mineral water will ensure that your skin looks smooth
+          and tight. Since your skin is adequately hydrated, the elasticity will
+          be maintained and Water keeps your body hydrated and refreshed and
+          helps maintain your skin’s elasticity. People who drink large amounts
+          of water are less likely to develop wrinkles and scars. Hence, keeping
+          sagging skin at bay for a long time to come!
+        </p>
+        <li>It Maintains pH Balance</li>
+        <p>
+          Whether your skin is far too oily or far too dry, one of the best
+          solutions to rectify that is drinking enough water. Sensitive,
+          acne-ridden skin or any other skin problem can be treated by
+          correcting the pH balance of your skin by drinking enough water. Be
+          consistent in your water intake and you will start noticing the
+          positive difference in a few days!
+        </p>
+        <p><strong>Conclusion</strong></p>
+        <p>
+          While you can consume water in different ways (green tea, lemon water,
+          etc.), there is nothing better than just plain mineral water.
+          Especially when you are out and about, you must always carry a bottle
+          of water so that you can meet your daily target of water consumed. If
+          you have to buy a bottle of water, nothing better than Fettle where
+          the potassium and magnesium-rich water goes through a 10-step
+          purification process & 114 Quality Tests before being bottled. Now you
+          can always stay healthy and hydrated!
+        </p>
+      </ul>
+    </div>
+    <footer style="margin-bottom: 0px; background-color: #222">
+      <div class="container">
+        <div class="footer-middle" style="padding: 40px 0 20px">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="widget widget-about">
+                <a href="/" class="logo-footer">
+                  <noscript
+                    ><img
+                      decoding="async"
+                      src="fettlelogo1.jpg"
+                      alt="logo-footer"
+                      width="200" /></noscript
+                  ><img
+                    decoding="async"
+                    class="ls-is-cached lazyloaded"
+                    src="fettlelogo1.jpg"
+                    alt="logo-footer"
+                    width="150"
+                    height="150"
+                  />
+                </a>
+                <div class="widget-body">
+                  <p>
+                    MINERALPRO MFG. LTD.<br />
+                    PO Box 1499, Parksville, BC<br />
+                    Canada, V9P 2H4
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a href="tel:18555866667">Toll Free: 1-855-586-6667</a>
+                      </li>
+                      <li>
+                        <a href="tel:12505866667">Direct: 1-250-586-6667</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/drinking-water-systems/"
+                          >Drinking Water Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/water-treatment/"
+                          >Water Filtration Systems</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/product-category/bottle-less-water-coolers/"
+                          >Bottle-less Water Coolers</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <div class="widget">
+                    <h4 class="widget-title">&nbsp;</h4>
+                    <ul class="widget-body">
+                      <li>
+                        <a
+                          href="https://www.mineralpro.com/about-reverse-osmosis/"
+                          >About Reverse Osmosis</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/contact-us/"
+                          >Contact Us</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.mineralpro.com/become-a-dealer/"
+                          >Want to be a dealer?</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-left">
+            <figure class="payment">
+              <noscript
+                ><img
+                  decoding="async"
+                  src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                  alt="payment"
+                  width="159"
+                  height="29" /></noscript
+              ><img
+                decoding="async"
+                class="ls-is-cached lazyloaded"
+                src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                data-src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_159,h_29/https://www.mineralpro.com/wp-content/themes/gseo_ecommerce/theme/images/payment.png"
+                alt="payment"
+                width="159"
+                height="29"
+              />
+            </figure>
+          </div>
+          <div class="footer-center">
+            <p class="copyright">© 2022 MineralPRO Mfg. All Rights Reserved</p>
+          </div>
+          <div class="footer-right">
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                class="social-link social-facebook fab fa-facebook-f"
+              ></a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="social-link social-twitter fab fa-twitter"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

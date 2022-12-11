@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+  }
+  #logsignbtn {
+    margin-right: 3vh;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  #navs {
+    background-color: #3a24f0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+  }
